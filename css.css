@@ -1,0 +1,86 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, blue,white);
+    position: absolute;
+}
+
+*{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.todo{
+    
+    background-color: white;
+    margin-top: 100px;
+    max-width: fit-content;
+    margin-left: 400px;
+    max-height: fit-content;
+    /* padding: 70px 40px 50px; */
+    align-items: initial;
+    text-align: center;
+    border-radius: 12px;
+
+
+}
+.todo h2{
+    display: flex;
+   font-size: 200%;
+   padding-left: 100px;
+}
+.todo img{
+    display: flex;
+     
+}
+
+.row{
+    max-width: fit-content;
+    display:flex;
+    justify-content: space-between;
+
+
+}
+input{
+    border-radius: 10px;
+    max-width: 350px;
+    padding-right: 115px;
+    max-height: 150px;
+    font-size: 120%;
+}
+button{
+    background-color: orange;
+    color: white;
+    border-radius: 15px;
+    font-size: 130%;
+    width: 130%;
+}
+
+ul li{
+    
+    font-size: 120%;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 50px;
+    
+}
+
+ 
+ul li .checked{
+    text-decoration: line-through;
+    color: #555;
+}
+
+ul li span{
+    position: absolute;
+    top: px;
+    text-align: center;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: red ;
+    /* background-color: yellow; */
+}
